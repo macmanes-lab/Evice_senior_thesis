@@ -26,7 +26,7 @@ This makes the blast database from the harmonia genome, you only have to do this
 
 ::
 
-  blastn -evalue 8e-8 -num_threads 8 -db harmonia -query query01.fa -max_target_seqs 3 -outfmt "6 qseqid pident evalue stitle" > query01.blastn
+  blastn -evalue 8e-8 -num_threads 8 -db harmonia -query sequence.fasta -max_target_seqs 3 -outfmt "6 qseqid pident evalue stitle" > query01.blastn
   
 This should only take a few seconds (I hope). To look at the results, type:
 
