@@ -18,7 +18,9 @@ This command will open up a text editor --> paste in the sequence and type  ``co
 
 ::
 
-  makeblastdb -in harmonia_genome.fasta -out harmonia -dbtype nucl
+  cd harmonia
+
+  makeblastdb -in harmonia.genome.fasta -out harmonia -dbtype nucl
 
 This makes the blast database from the harmonia genome, you only have to do this the 1st time.
 
