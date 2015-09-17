@@ -5,6 +5,7 @@ Use BWA to look for bacteria using raw reads
 **Download** Wolbachia genome (you maybe did this already). Once downloaded, index the file using ``bwa index`` to make it usable for mapping
 
 ::
+
   cd /home/evice/harmonia/genome/
   bwa index -p wolbachia /home/evice/harmonia/WOLBACHIA.FILE.FASTA
 
