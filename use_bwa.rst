@@ -16,7 +16,7 @@ Once that command is completed, you can do the mapping.
   interleave-reads.py \
   harm1.fq \
   harm2.fq \
-  | skewer -Q 5 -t 2 -x $SCRATCH/adapters.fa - -1 \
+  | skewer -Q 5 -t 2 -x /share/adapters.fa - -1 \
   | extract-paired-reads.py -p - -s /dev/null - \
   | bwa mem -p -t 4 wolbachia - \
   | samtools view -T . -F4 -bu - \
